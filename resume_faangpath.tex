@@ -1,0 +1,108 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,      
+    urlcolor=black,
+    }
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Mathias Scroccaro Costa} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+55 (41) 99583-9916 \\ Campinas, Brazil} 
+\address{\href{mailto:mathias.scroccaro@gmail.com}{mathias.scroccaro@gmail.com} \\ \href{https://www.linkedin.com/in/mathias-scroccaro}{https://www.linkedin.com/in/mathias-scroccaro} \\ \href{http://mathiasscroccaro.github.io}{http://mathiasscroccaro.github.io}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{Senior Software Engineer with 5+ years of experience, seeking full-time Firmware Developer roles.}
+
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Master of IoT Engineering}, Unicamp University \hfill {2017 - 2019}\\
+Relevant Coursework: Sensors signal acquisition and processing; Digital signal processing; Switching power supplies
+
+{\bf Bachelor of Electronics Engineering}, Federal University of Technology  \hfill {2013 - 2017}
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{PROFESSIONAL EXPERIENCE}
+
+\textbf{Machine Learning Engineer} \hfill May 2023 - Current\\
+DevGrid \hfill \textit{remote from London, UK}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Developed REST APIs that efficiently processed data from over 50,000 IoT sensors, utilizing technologies such as FastAPI, RabbitMQ, and Celery workers, maily through a Event-Driven architecture.
+     \item Maintained Python microservices running on Kubernetes clusters, integrating and processing data structures from REST API's and databases such as Cassandra, Redis and Postgres.
+     \item Orchestrated GitlabCI-based CI pipelines, automating unit and integration tests with libraries like Pytest.
+
+ \end{itemize}
+ 
+\textbf{Backend Engineer} \hfill May 2022 - May 2023\\
+DevGrid \hfill \textit{remote from London, UK}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Developed a REST API surfacing 100M+ Postgres database records of financial and shareholders' data using Python, Flask, and SQLAlchemy. Integrated the data provider to the client's Gateway API.
+     \item Integrated 3rd party Know Your Customer API services according to client-used OpenAPI specification types using Pydantic library and Swagger UI.
+ \end{itemize}
+
+\textbf{Backend Engineer} \hfill Nov 2020 - May 2022\\
+Eldorado Research Institute \hfill \textit{Campinas, BR}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Designed the backend architecture of an IoT network and implemented gateway and server applications from scratch using Python, Flask, and SQLAlchemy. Ensured adherence to PEP8 standards and SonarQube tool insights through a code audit.
+     \item Optimized deployment by transitioning on-premise Postgres and MongoDB databases to Docker containers.
+   %   \item Developed UI interfaces with Qt5 library for a custom embedded Linux.
+ \end{itemize}
+
+\textbf{IoT Researcher Engineer} \hfill Jul 2017 - Oct 2020\\
+Unicamp University \hfill \textit{Campinas, BR}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item Engineered firmware for low-power IoT devices using C and C++ languages, targeting Nordic and STM families. Controlled peripherals like ADC and DAC, managed communication with EEPROM and flash memories via SPI and I2C interfaces;
+     \item Designed PCB schematics and layouts with KiCad for low-power IoT devices, manually prototyped, and tested them using laboratory instruments from Agilent, Hewlett-Packard, and Keysight.
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{PROJECTS}
+% \vspace{-1.25em}
+% \item \textbf{Golang static blog generator.} {Built an application to render Markdown and template files to HTML. The blog uses HTMX for the infinite scrolling effect}
+% \item \textbf{Homelab Kubernetes cluster} {Configured a Microk8s server in a mini computer. Installed a private Docker Registry, Jenkins and ArgoCD }
+
+% \end{rSection} 
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Leadership Experience} 
+\vspace{-1.25em}
+\item \textbf{Mentored a Junior Developer:} Offered instruction on Clean Code and TDD principles, thereby improving the readability and maintainability of the codebase.
+\item \textbf{Taught a Basic Electronics Course for 25 Undergraduate Students:} Independently developed laboratory scripts and guided students in prototyping an electrocardiogram (ECG) generator and acquisition circuit as a Teacher Assistant.
+\end{rSection}
+
+
+\end{document}
